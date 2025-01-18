@@ -1,0 +1,176 @@
+:root {
+  --primary-color: #02204c;
+  --secondary-color: #ffcc00;
+  --black-color: #000000;
+  --white-color: #fdfdfd;
+  --background-color: #eeeeee;
+}
+
+body {
+  margin: 0;
+  /* width: 100%; */
+}
+
+/*  Nav  */
+
+nav {
+    display: block;
+    background-color: var(--primary-color);
+    opacity: 0.9;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 60px;
+}
+
+nav a {
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-left: 35px;
+    margin-right: 18px;
+    display: inline-block;
+}
+
+
+/* Global */
+
+
+
+.container {
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid rgb(255, 0, 221);
+}
+
+h1 {
+  color: var(--secondary-color);
+}
+
+h2 {
+  color: var(--primary-color);
+}
+
+h3 {
+  color: var(--primary-color);
+}
+
+p {
+  color: var(--black-color);
+}
+
+p .intro {
+  color: var(--black-color);;
+  align-content: center;
+  padding: 20px;
+}
+
+
+/*  Hero  */
+
+
+.heroContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    background-image: url('./images/Background.webp');
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+}
+
+
+
+.HeroIntro {
+  color: var(--white-color);
+}
+
+
+
+
+/*  Review Tile  */
+/*  Review Tile  */
+/*  Review Tile  */
+/*  Review Tile  */
+/*  Review Tile  */
+
+
+
+.ReviewTiles {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  width: 98%;
+  border-radius: 0px;
+  border: 5px solid var(--primary-color); 
+  background-color: var(--white-color);
+  box-shadow: 0 0 10px rgb(255, 0, 0);
+}
+.ReviewTile {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  width: 80%;
+  border-radius: 0px;
+  border: 5px solid var(--primary-color); 
+  background-color: var(--white-color);
+  box-shadow: 0 0 10px rgb(255, 0, 0);
+}
+
+.reviewImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+  margin-right: 20px;
+}
+
+.reviewText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin: 0px;
+  padding: 3px;
+  width: 100%;
+  border: 5px solid var(--primary-color); 
+  background-color: var(--white-color);
+  box-shadow: 0 0 10px rgb(255, 0, 0);
+  height: 150px;
+
+}
+
+
+.reviewText h3 {
+  color: var(--primary-color);
+  font-size: 26px;
+  margin: 0px;
+  padding: 10px;
+  line-height: 5px;
+}
+.reviewText h5 {
+  color: var(--secondary-color);
+  font-size: 16px;
+  margin: 0px;
+  padding: 10px;
+  line-height: 5px;
+}
+.reviewText p {
+  color: var(--black-color);
+  font-size: 16px;
+  margin: 0px;
+  padding-top: 20px;
+  padding-left: 10px;
+
+}

@@ -45,29 +45,30 @@ nav a {
   flex-direction: column;
   align-items: center;
   border: 5px solid rgb(255, 0, 221);
+  background-color: var(--background-color);
 }
 
-h1 {
-  color: var(--secondary-color);
-}
 
-h2 {
+
+
+  .sectionTitle {
   color: var(--primary-color);
+  font-size: 64px;
+  margin-top: 133px;
+  margin-left: 760px;
+  margin-right: 760px;
+  width: 70%;
+  text-align: center;
 }
-
-h3 {
-  color: var(--primary-color);
-}
-
-p {
+  .sectionIntro {
   color: var(--black-color);
+  font-size: 28px;
+  margin-top: 53px;
+  margin-left: 118px;
+  margin-right: 118px;
+  text-align: center;
 }
 
-p .intro {
-  color: var(--black-color);;
-  align-content: center;
-  padding: 20px;
-}
 
 
 /*  Hero  */
@@ -104,14 +105,14 @@ p .intro {
   display: flex;
   align-self: center;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin: 0px;
   padding: 0px;
   width: 98%;
   border-radius: 0px;
   border: 5px solid var(--primary-color); 
-  background-color: var(--white-color);
+  background-color: var(--background-color);
   box-shadow: 0 0 10px rgb(255, 0, 0);
 }
 .ReviewTile {
@@ -136,7 +137,7 @@ p .intro {
   margin-right: 20px;
 }
 
-.reviewText {
+.reviewTextContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;

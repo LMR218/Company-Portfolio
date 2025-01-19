@@ -226,22 +226,28 @@
     <section id="contactUs" class="container">
       <h2 class="sectionTitle">Contact Us</h2>
 
-      <form action="">
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name" required />
+      <form class="contactForm" action="">
 
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required />
+
+        <
+        <div class="inlineformFields">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" placeholder="Your Name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" placeholder="Your Email" required />
+        </div>
 
         <br />
-        <label for="messege">Messege</label>
         <textarea
           name="messege"
           id="messege"
           cols="51"
           rows="5"
+          placeholder="Message..."
           required
-        ></textarea>
+        >
+        </textarea>
 
         <button id="submitForm">SEND</button>
       </form>

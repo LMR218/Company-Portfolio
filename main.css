@@ -4,6 +4,7 @@
   --black-color: #000000;
   --white-color: #fdfdfd;
   --background-color: #eeeeee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -130,8 +131,8 @@ nav a {
 }
 
 .reviewImg {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   margin: 10px;
   margin-right: 20px;
@@ -153,25 +154,25 @@ nav a {
 }
 
 
-.reviewText h3 {
+.reviewTextTilte {
   color: var(--primary-color);
-  font-size: 26px;
+  font-size: 36px;
   margin: 0px;
   padding: 10px;
   line-height: 5px;
 }
-.reviewText h5 {
+.reviewTextSubtilte {
   color: var(--secondary-color);
   font-size: 16px;
   margin: 0px;
   padding: 10px;
   line-height: 5px;
 }
-.reviewText p {
+.reviewParagraph {
   color: var(--black-color);
-  font-size: 16px;
+  font-size: 32px;
   margin: 0px;
-  padding-top: 20px;
+  padding-top: 15px;
   padding-left: 10px;
 
 }

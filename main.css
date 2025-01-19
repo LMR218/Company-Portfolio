@@ -264,10 +264,11 @@ p.serviceDescription {
 }
 
 
-.projectTextTilte {
+.projectTextTitle {
   color: var(--primary-color);
-  font-size: 36px;
-  margin: 0px;
+  font-size: 30px;
+  margin-top: 18px;
+  margin-bottom: 22px;
   padding-top: 10px;
   line-height: 5px;
 }

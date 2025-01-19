@@ -224,8 +224,8 @@ h1.HeroTitle {
 }
 
 h3.serviceItem{
-  /* color: var(--primary-color); */
-  color: var(--secondary-color);
+  color: var(--primary-color);
+  /* color: var(--secondary-color); */
   font-size: 36px;
   margin: 0px;
   padding: 10px;

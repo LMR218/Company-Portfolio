@@ -202,7 +202,7 @@ h3.serviceItem{
   padding: 10px;
   line-height: 5px;
 }
-p.description {
+p.serviceDescription {
   color: var(--black-color);
   font-size: 32px;
   margin: 0px;

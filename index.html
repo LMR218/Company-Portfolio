@@ -296,22 +296,25 @@
       <form class="contactForm" action="">
 
         <div class="inlineformFields">
-          <label for="name">Name:</label>
+          <label class="fieldName" for="name">
+            <strong>Name:</strong>
+          </label>
           <input type="text" name="name" id="name" placeholder="Your Name" required />
 
-          <label for="email">Email:</label>
+          <label class="fieldName" for="email">
+            <strong>E-Mail:</strong>
+          </label>
           <input type="email" name="email" id="email" placeholder="Your Email" required />
         </div>
-        <label id="#messegeLabel" for="email">Messege:</label>
-        <textarea
+        <!-- <label class="fieldName" id="#messegeLabel" for="email">Messege:</label> -->
+        <textarea class="messegeField"
           name="messege"
-          id="messege"
+          id="messegeInputField"
           cols="51"
           rows="5"
           placeholder="Message..."
           required
-        >
-        </textarea>
+        ></textarea>
 
         <button id="submitForm">SEND</button>
       </form>

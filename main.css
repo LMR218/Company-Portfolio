@@ -9,7 +9,6 @@
 
 body {
   margin: 0;
-  /* width: 100%; */
 }
 
 /*  Nav  */
@@ -42,6 +41,8 @@ nav a {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+
   border: 5px solid rgb(255, 0, 221);
   background-color: var(--background-color);
 }
@@ -50,6 +51,8 @@ nav a {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+
   border: 5px solid rgb(255, 0, 221);
   background-color: var(--primary-color);
 }
@@ -104,8 +107,9 @@ nav a {
   background-image: url("./images/Background.webp");
   background-size: cover;
   background-blend-mode: multiply;
+
   height: 100vh;
-  width: 2108px;
+
   background-color: rgba(2, 32, 76, 0.2);
 }
 .heroContainer {
@@ -465,12 +469,12 @@ textarea:focus::placeholder {
 
 
 .contactInfoContainer { 
-  position: relative;
+  /* position: absolute; */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin: 0px;
+  margin: 0 auto;
   padding: 0px;
   background-color: var(--white-color);
   
@@ -478,6 +482,9 @@ textarea:focus::placeholder {
   left: 85px; */
   width: 80%;
   height: 295px;
+
+  bottom: 0%;
+  /* left: 85px; */
 }
 
 

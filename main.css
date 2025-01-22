@@ -568,3 +568,10 @@ textarea::placeholder {
 }
 
 
+ /* JavaScript  */
+
+ .error {
+  font-size: 0.9rem;
+  margin: 5px;
+  color: red;
+ }
